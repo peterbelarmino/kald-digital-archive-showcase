@@ -1,0 +1,32 @@
+{
+  "generated": "2026-06-19T12:00:07.451482",
+  "showcaseVersion": "Phase 1",
+  "albumPages": 16,
+  "totalLegacyImageTags": 5083,
+  "latestDuplicateAudit": {
+    "created": "2026-06-19T11:21:52.467512",
+    "mode": "READ_ONLY",
+    "photo_pages_scanned": 17,
+    "total_image_tags": 5084,
+    "content_image_references": 5051,
+    "unique_content_image_sources": 5051,
+    "within_album_duplicate_groups": 0,
+    "cross_album_duplicate_groups": 0,
+    "duplicate_routes": 0,
+    "duplicate_route_titles": 2,
+    "possible_duplicate_event_keys": 0,
+    "possible_duplicate_event_titles": 0,
+    "duplicate_html_ids": 0,
+    "critical_count": 0,
+    "review_count": 2,
+    "deployment_changes": 0,
+    "project_file_changes": 0
+  },
+  "secureArchiveUrl": "https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec",
+  "publicSafety": {
+    "originalPhotosCopied": false,
+    "originalVideosCopied": false,
+    "privateDocumentsCopied": false,
+    "credentialsCopied": false
+  }
+}
