@@ -3,54 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="KALD Digital Archive showcase">
+  <meta name="description" content="KALD Digital Archive secure project portal">
+  <meta name="robots" content="index,follow">
   <title>Photos | KALD Digital Archive</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body data-page="photos">
+<body data-page="protected">
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="KALD Digital Archive home">
         <span class="brand-mark">K</span>
         <span>
           <strong>KALD Digital Archive</strong>
-          <small>Project Showcase</small>
+          <small>Secure Project Portal</small>
         </span>
       </a>
-      <button class="menu-button" type="button" aria-label="Open navigation">Menu</button>
+
+      <button class="menu-button" type="button" aria-label="Open navigation">
+        Menu
+      </button>
+
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="nav-link" href="index.html">Home</a>
-<a class="nav-link active" href="photos.html">Photos</a>
-<a class="nav-link" href="videos.html">Videos</a>
-<a class="nav-link" href="documents.html">Documents</a>
 <a class="nav-link" href="about.html">About</a>
+<a class="nav-link secure-link" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">Secure Login</a>
       </nav>
     </div>
   </header>
 
   <main>
     
-<section class="page-hero">
+<section class="protected-page">
   <div class="container">
-    <span class="eyebrow">Photo archive</span>
-    <h1>Album catalog</h1>
-    <p>
-      This page loads one small JSON catalog instead of thousands of embedded
-      images. Original photos remain inside the secure archive.
-    </p>
-  </div>
-</section>
+    <div class="access-gate">
+      <div class="lock-symbol large" aria-hidden="true">&#128274;</div>
+      <span class="eyebrow">Protected content</span>
+      <h1>Photos require login</h1>
+      <p>Photo albums and thumbnails are available only after authorized login.</p>
 
-<section class="section">
-  <div class="container">
-    <div class="album-toolbar">
-      <input class="search-input" data-album-search type="search" placeholder="Search album name">
-      <select class="filter-select" data-year-filter>
-        <option value="">All years</option>
-      </select>
-    </div>
-    <div class="album-grid" data-album-grid>
-      <div class="empty-state">Loading album catalog...</div>
+      <div class="security-note">
+        No photos catalog, title, thumbnail, metadata,
+        file identifier, or original archive file is stored on this public page.
+      </div>
+
+      <div class="actions centered">
+        <a class="button primary" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">
+          Sign In to Secure Archive
+        </a>
+        <a class="button secondary" href="index.html">
+          Return to Home
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -61,10 +64,12 @@
     <div class="container footer-grid">
       <div>
         <strong>KALD Digital Archive</strong>
-        <p>Fast public showcase for the secure institutional archive.</p>
+        <p>Archive content is available only to authorized users.</p>
       </div>
       <div class="footer-actions">
-        <a href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec" target="_blank" rel="noopener">Open Secure Archive</a>
+        <a href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">
+          Open Secure Login
+        </a>
       </div>
     </div>
   </footer>

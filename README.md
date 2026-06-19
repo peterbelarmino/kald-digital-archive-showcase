@@ -1,25 +1,25 @@
-# KALD Digital Archive Showcase
+# KALD Digital Archive Secure Landing
 
-Public-safe static showcase for the KALD Digital Archive project.
+This repository contains only the public landing page for the KALD Digital Archive.
 
-## Included
+## Security design
 
-- responsive public homepage
-- photo album catalog
-- video system presentation
-- document system presentation
+Photos, videos, documents, album names, thumbnails, metadata, file identifiers,
+and original archive files are not stored in this public repository.
+
+Authorized users access the archive through the secure Apps Script login portal:
+
+https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin
+
+## Public repository contents
+
+- secure landing page
+- access-required notices
 - project information
-- static CSS, JavaScript, and JSON catalogs
+- CSS and minimal navigation JavaScript
 
-## Not included
+## Private systems kept separate
 
-- original archive photos
-- original archive videos
-- private documents
-- passwords or access tokens
-- Google Drive file identifiers
-- local Windows paths
-- local preview launchers
-
-This repository is the public presentation layer. The secure archive remains
-separate in Google Apps Script and Google Drive.
+- Google Apps Script authentication and archive interface
+- Google Drive media and document storage
+- admin and management functions

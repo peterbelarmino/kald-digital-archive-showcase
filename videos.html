@@ -3,82 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="KALD Digital Archive showcase">
+  <meta name="description" content="KALD Digital Archive secure project portal">
+  <meta name="robots" content="index,follow">
   <title>Videos | KALD Digital Archive</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body data-page="videos">
+<body data-page="protected">
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="KALD Digital Archive home">
         <span class="brand-mark">K</span>
         <span>
           <strong>KALD Digital Archive</strong>
-          <small>Project Showcase</small>
+          <small>Secure Project Portal</small>
         </span>
       </a>
-      <button class="menu-button" type="button" aria-label="Open navigation">Menu</button>
+
+      <button class="menu-button" type="button" aria-label="Open navigation">
+        Menu
+      </button>
+
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="nav-link" href="index.html">Home</a>
-<a class="nav-link" href="photos.html">Photos</a>
-<a class="nav-link active" href="videos.html">Videos</a>
-<a class="nav-link" href="documents.html">Documents</a>
 <a class="nav-link" href="about.html">About</a>
+<a class="nav-link secure-link" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">Secure Login</a>
       </nav>
     </div>
   </header>
 
   <main>
     
-<section class="page-hero">
+<section class="protected-page">
   <div class="container">
-    <span class="eyebrow">Video archive</span>
-    <h1>Fast presentation, secure playback</h1>
-    <p>
-      The showcase does not request Google Drive thumbnails for every video.
-      It presents the system instantly and sends authorized users to the secure archive.
-    </p>
-    <div class="actions">
-      <a class="button primary" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=videos" target="_blank" rel="noopener">Open Secure Videos</a>
-    </div>
-  </div>
-</section>
+    <div class="access-gate">
+      <div class="lock-symbol large" aria-hidden="true">&#128274;</div>
+      <span class="eyebrow">Protected content</span>
+      <h1>Videos require login</h1>
+      <p>Video listings, thumbnails, and playback are available only after authorized login.</p>
 
-<section class="section">
-  <div class="container">
-    <div class="section-heading">
-      <div>
-        <span class="eyebrow">Performance design</span>
-        <h2>How the final video showcase works</h2>
+      <div class="security-note">
+        No videos catalog, title, thumbnail, metadata,
+        file identifier, or original archive file is stored on this public page.
       </div>
-    </div>
-    <div class="architecture">
-      <article class="arch-step"><strong>1. Static catalog</strong><span>Small JSON file loads immediately.</span></article>
-      <article class="arch-step"><strong>2. Local thumbnails</strong><span>Pre-generated WebP images, no Drive request.</span></article>
-      <article class="arch-step"><strong>3. Lazy loading</strong><span>Only visible cards load their images.</span></article>
-      <article class="arch-step"><strong>4. Secure handoff</strong><span>Playback stays in the protected archive.</span></article>
-    </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="card-grid">
-      <article class="card">
-        <div class="card-icon">01</div>
-        <h3>Instant catalog</h3>
-        <p>No Apps Script or Drive scan is required before the page becomes usable.</p>
-      </article>
-      <article class="card">
-        <div class="card-icon">02</div>
-        <h3>Optimized thumbnails</h3>
-        <p>Permanent WebP thumbnail files will be generated once and reused.</p>
-      </article>
-      <article class="card">
-        <div class="card-icon">03</div>
-        <h3>Private originals</h3>
-        <p>Original videos and credentials are never uploaded to the public repository.</p>
-      </article>
+      <div class="actions centered">
+        <a class="button primary" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">
+          Sign In to Secure Archive
+        </a>
+        <a class="button secondary" href="index.html">
+          Return to Home
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -89,10 +64,12 @@
     <div class="container footer-grid">
       <div>
         <strong>KALD Digital Archive</strong>
-        <p>Fast public showcase for the secure institutional archive.</p>
+        <p>Archive content is available only to authorized users.</p>
       </div>
       <div class="footer-actions">
-        <a href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec" target="_blank" rel="noopener">Open Secure Archive</a>
+        <a href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">
+          Open Secure Login
+        </a>
       </div>
     </div>
   </footer>

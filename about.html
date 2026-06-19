@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="KALD Digital Archive showcase">
+  <meta name="description" content="KALD Digital Archive secure project portal">
+  <meta name="robots" content="index,follow">
   <title>About | KALD Digital Archive</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -14,16 +15,18 @@
         <span class="brand-mark">K</span>
         <span>
           <strong>KALD Digital Archive</strong>
-          <small>Project Showcase</small>
+          <small>Secure Project Portal</small>
         </span>
       </a>
-      <button class="menu-button" type="button" aria-label="Open navigation">Menu</button>
+
+      <button class="menu-button" type="button" aria-label="Open navigation">
+        Menu
+      </button>
+
       <nav class="site-nav" aria-label="Primary navigation">
         <a class="nav-link" href="index.html">Home</a>
-<a class="nav-link" href="photos.html">Photos</a>
-<a class="nav-link" href="videos.html">Videos</a>
-<a class="nav-link" href="documents.html">Documents</a>
 <a class="nav-link active" href="about.html">About</a>
+<a class="nav-link secure-link" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">Secure Login</a>
       </nav>
     </div>
   </header>
@@ -35,8 +38,8 @@
     <span class="eyebrow">About the project</span>
     <h1>KALD Digital Archive</h1>
     <p>
-      A structured archive platform for faster discovery of institutional
-      photos, videos, documents, reports, and historical media.
+      A structured, searchable, and access-controlled archive platform for
+      institutional photos, videos, documents, reports, and historical media.
     </p>
   </div>
 </section>
@@ -46,19 +49,32 @@
     <div class="card-grid">
       <article class="card">
         <h3>Purpose</h3>
-        <p>Transform scattered media and records into a searchable, organized, and maintainable archive.</p>
+        <p>
+          Organize scattered institutional media and records into one controlled archive.
+        </p>
       </article>
+
+      <article class="card">
+        <h3>Security</h3>
+        <p>
+          Public pages contain no archive listings. Authorized access is handled by
+          the secure Apps Script portal.
+        </p>
+      </article>
+
       <article class="card">
         <h3>Technology</h3>
-        <p>Google Apps Script, Google Drive, Python automation, static web technologies, and controlled deployment workflows.</p>
-      </article>
-      <article class="card">
-        <h3>Public-safe design</h3>
-        <p>The showcase demonstrates the project while keeping original archive content and access credentials private.</p>
+        <p>
+          Google Apps Script, Google Drive, Python automation, static hosting,
+          audit reports, and controlled deployment workflows.
+        </p>
       </article>
     </div>
-    <div class="notice" style="margin-top:24px">
-      This showcase is not the private archive. It is the professional presentation layer for clients, owners, and project reviewers.
+
+    <div class="actions">
+      <a class="button primary" href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">
+        Open Secure Login
+      </a>
     </div>
   </div>
 </section>
@@ -69,10 +85,12 @@
     <div class="container footer-grid">
       <div>
         <strong>KALD Digital Archive</strong>
-        <p>Fast public showcase for the secure institutional archive.</p>
+        <p>Archive content is available only to authorized users.</p>
       </div>
       <div class="footer-actions">
-        <a href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec" target="_blank" rel="noopener">Open Secure Archive</a>
+        <a href="https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=admin" target="_blank" rel="noopener">
+          Open Secure Login
+        </a>
       </div>
     </div>
   </footer>

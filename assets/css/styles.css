@@ -92,3 +92,65 @@ h2{font-size:clamp(30px,4vw,46px);letter-spacing:-.03em}
   .section{padding:52px 0}
   .section-heading,.footer-grid{align-items:flex-start;flex-direction:column}
 }
+
+/* KALD secure public landing V1 */
+.secure-link{
+  background:var(--blue);
+  color:#fff !important;
+}
+.secure-link:hover{
+  background:var(--navy) !important;
+}
+.protected-page{
+  min-height:calc(100vh - 190px);
+  display:grid;
+  align-items:center;
+  padding:72px 0;
+  background:
+    radial-gradient(circle at 50% 0%,#dcefff,transparent 38%),
+    var(--bg);
+}
+.access-gate{
+  width:min(760px,100%);
+  margin-inline:auto;
+  padding:46px;
+  text-align:center;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:28px;
+  box-shadow:var(--shadow);
+}
+.access-gate h1{
+  margin:18px 0;
+  font-size:clamp(36px,6vw,58px);
+}
+.access-gate p{
+  max-width:620px;
+  margin:0 auto 22px;
+  color:var(--muted);
+  font-size:18px;
+}
+.lock-symbol{
+  font-size:52px;
+  line-height:1;
+  margin-bottom:18px;
+}
+.lock-symbol.large{
+  font-size:72px;
+}
+.security-note{
+  margin:24px 0;
+  padding:16px 18px;
+  border:1px solid #cfe0ef;
+  border-radius:14px;
+  background:#f3f8fc;
+  color:#37566f;
+}
+.actions.centered{
+  justify-content:center;
+}
+@media(max-width:680px){
+  .access-gate{
+    padding:30px 20px;
+  }
+}
