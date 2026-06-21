@@ -1,0 +1,20 @@
+{
+  "project": "KALD Digital Archive Center",
+  "production_version": 75,
+  "automatic_google_drive_catalog_sync": false,
+  "catalog_update_method": "approved rebuild and deployment",
+  "duplicate_photo_paths_remaining": 0,
+  "media_copies_created": 0,
+  "counts": {
+    "videos": 75,
+    "photo_albums": 32,
+    "unique_photos": 5978,
+    "documents": 222
+  },
+  "links": {
+    "showcase": "https://peterbelarmino.github.io/kald-digital-archive-showcase/",
+    "digital_archive": "https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=v8-preview",
+    "admin_login": "https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=login"
+  },
+  "updated_at": "2026-06-21T17:42:10"
+}
