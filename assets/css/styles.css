@@ -154,3 +154,34 @@ h2{font-size:clamp(30px,4vw,46px);letter-spacing:-.03em}
     padding:30px 20px;
   }
 }
+
+
+/* KALD FINAL THUMBNAIL PRESENTATION */
+button.nav-link,button.text-button{font:inherit;cursor:pointer}
+button.nav-link{border:0;background:transparent}
+button.nav-link:hover,button.nav-link.active{background:var(--blue-soft);color:var(--blue)}
+.tab-panel{display:none}.tab-panel.active{display:block}
+.presentation-hero{padding-top:72px}
+.presentation-search{width:min(620px,100%);margin-top:18px}
+.preview-columns{display:grid;gap:48px;margin-top:48px}
+.mini-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:18px}
+.mini-heading h3{margin:0;font-size:28px}
+.text-button{border:0;background:transparent;color:var(--blue);font-weight:800}
+.media-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.media-card{min-width:0;overflow:hidden;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.preview-button{display:block;width:100%;aspect-ratio:16/9;padding:0;border:0;background:#dce6ef;overflow:hidden;cursor:zoom-in}
+.preview-button img{width:100%;height:100%;display:block;object-fit:cover;object-position:center;transition:transform .25s ease}
+.preview-button:hover img{transform:scale(1.025)}
+.media-card-body{padding:18px}
+.media-type{display:inline-flex;margin-bottom:8px;color:var(--blue);font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.media-card h3{display:-webkit-box;min-height:3.45em;margin:0 0 9px;overflow:hidden;font-size:18px;line-height:1.15;-webkit-box-orient:vertical;-webkit-line-clamp:3}
+.media-card p{margin:0;color:var(--muted);font-size:14px}
+.photo-preview-grid .preview-button{aspect-ratio:4/3}
+.image-viewer{width:min(1000px,calc(100% - 32px));padding:18px;border:0;border-radius:22px;background:#071a2b;color:#fff}
+.image-viewer::backdrop{background:rgba(2,12,22,.82)}
+.image-viewer img{width:100%;max-height:76vh;display:block;object-fit:contain;border-radius:14px}
+.image-viewer p{margin:12px 44px 0 4px}
+.viewer-close{position:absolute;top:12px;right:14px;width:38px;height:38px;border:0;border-radius:999px;background:#fff;color:#0b2946;font-size:25px;cursor:pointer}
+.searchable-card[hidden]{display:none}
+@media(max-width:900px){.media-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.media-grid{grid-template-columns:1fr}.mini-heading{align-items:flex-start;flex-direction:column}}
