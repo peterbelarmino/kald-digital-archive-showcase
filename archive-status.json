@@ -1,6 +1,6 @@
 {
   "project": "KALD Digital Archive Center",
-  "production_version": 75,
+  "production_version": 77,
   "automatic_google_drive_catalog_sync": false,
   "catalog_update_method": "approved rebuild and deployment",
   "duplicate_photo_paths_remaining": 0,
@@ -16,5 +16,10 @@
     "digital_archive": "https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=v8-preview",
     "admin_login": "https://script.google.com/macros/s/AKfycbwW3OZPoeqFUZtF19fAK_BtL3Je_IR1FO2zc8Ny5egVuiqsvaGQSi-m3NWZfXgU4O_o/exec?view=login"
   },
-  "updated_at": "2026-06-21T17:46:41"
+  "updated_at": "2026-06-21T18:38:36",
+  "ui_text_thumbnail_repair": "passed",
+  "video_title_encoding": "fixed",
+  "secure_video_thumbnails": "progressive authenticated loading",
+  "secure_photo_thumbnails": "cached with safe fallback",
+  "public_v8_thumbnails": "professional privacy-safe preview cards"
 }
